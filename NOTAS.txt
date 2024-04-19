@@ -1,0 +1,14 @@
+undefine => es un metodo que no retrona ningun valor
+promt=> es un metodo que permite pedirle a un usuario pedirle un valor y devuelve un valor
+_______________________________________________________
+*Tener cuidado ya que JS se ejecuta de manera secuencial*
+*sencentcias comandos que realizan acciones*
+ctl*} comenta en vs code
+_______________________________________________________
+la mayoria de problemas se van a resolver con la entrada y salida de datos
+entrada y salida de datos
+input <- entrada 
+output <- salida
+_______________________________________________________
+
+variables almacen valores para utilizarlos posteriormente 
