@@ -157,8 +157,26 @@ function saludar(){
 }
 
 || <- OR
+compara dos o mas valores booleanos donde si al menos hay un valor booleano en verdadero, entonces toda la sentencia va a retornar true.
+
+console.log(false||false||false)
+
+console.log(false||false||true||false)
+tome los valores de izq a derecha y va a retornar el primer valor truthy o true 
+
 
 ?? <- Nullish coalescing
+El operador de coalescencia nula o null operator es un operador que retorna el segundo operador o segundo valor en caso de que el primer operador sea null o undefined
+
+ejemplo => console.log(0 ?? "Hola, como estas?")
+si el operador es diferente a null o undefined, va a retornar el primer operador.
+
+console.log(undefined ?? "Hola, como estas?")
+imprime "Hola, como estas?"
+
+
+console.log(false || true && false);
+prioridad de operador es &&>||
 
 */
 
@@ -173,6 +191,18 @@ alert(mensaje);
 */
 
 
+
+
+//este operador analiza una condicion donde si esa condicion o esa expresion retorna verdadero entonces se ejecuta una expresion en caso de que sea verdadero, pero si retorna falso se ejecuta otra.
+//si la condicion es verdadera se ejecuta una expresion, pero si es falsa se ejecuta la otra
+//(condicion) ? expresion : expresion
+/*
+let edad = Number(prompt("Dame tu edad: "));
+
+let mensaje = (edad >= 18) ? "Eres mayor de edad" : "lo siento, edad no valido";
+
+alert(mensaje);
+/*
 
 
 
@@ -191,3 +221,4 @@ let mensaje =
     : (nombre2 === nombreIngresar);
 
 alert(mensaje);*/
+
